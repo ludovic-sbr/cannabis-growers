@@ -1,7 +1,7 @@
 {
-  "short_name": "Andrea Naturopathie",
-  "name": "Andrea Naturopathie",
-  "description": "Site web de SOBRERO Andrea, naturopathe à Marseille.",
+  "short_name": "SCGC",
+  "name": "Cannabis Growers Club",
+  "description": "...",
   "icons": [
     {
       "src": "favicon.ico",
@@ -9,7 +9,7 @@
       "type": "image/x-icon"
     }
   ],
-  "start_url": "https://andrea-naturopathie.com/",
+  "start_url": "...",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
