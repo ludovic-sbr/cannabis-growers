@@ -8,7 +8,7 @@ import SectionTeam from './SectionTeam'
 
 const Index = () => {
   return (
-    <div className="home">
+    <div className="home container-fluid">
       <SectionWelcome />
       <SectionAbout />
       <SectionRoadmap />

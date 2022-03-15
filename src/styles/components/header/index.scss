@@ -1,0 +1,19 @@
+@import 'logo';
+@import "navbar";
+@import "loginBtn";
+
+.header {
+  width: 100%; height: 100px;
+
+  position: fixed;
+
+  z-index: 999;
+  background-color: #03241C;
+
+  nav {
+    height: 100%;
+
+    display: flex;
+    justify-content: space-between;
+  }
+}
