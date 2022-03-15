@@ -3,7 +3,7 @@ import Monkey from '../../assets/images/monkey.jpg'
 
 const SectionAbout = () => {
   return (
-    <div id="about" className="section-about">
+    <section id="about" className="section-about">
       <div className="container">
         <h2> ABOUT </h2>
         <div className="row para">
@@ -102,7 +102,7 @@ const SectionAbout = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 
