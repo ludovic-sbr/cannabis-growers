@@ -2,10 +2,10 @@ import React from 'react'
 
 const SectionSpecs = () => {
   return (
-    <section id="specs" className="section-specs">
+    <section id="specs" className="section-specs container-fluid">
       <h2 className="section-title"> SPECS </h2>
       <div className="row specs-details mx-auto">
-        <div className="specs-item col-3">
+        <div className="specs-item col-xl-3 col-md-6 col-12 mx-auto mb-5">
           <div className="specs-item-inner">
             <div className="specs-item-inner-content">
               <h3> INNOVATION </h3>
@@ -16,7 +16,7 @@ const SectionSpecs = () => {
             </div>
           </div>
         </div>
-        <div className="specs-item col-3">
+        <div className="specs-item col-xl-3 col-md-6 col-12 mx-auto mb-5">
           <div className="specs-item-inner">
             <div className="specs-item-inner-content">
               <h3> UNIQUE </h3>
@@ -27,7 +27,7 @@ const SectionSpecs = () => {
             </div>
           </div>
         </div>
-        <div className="specs-item col-3">
+        <div className="specs-item col-xl-3 col-md-6 col-12 mx-auto mb-5">
           <div className="specs-item-inner">
             <div className="specs-item-inner-content">
               <h3> COMMUNITY </h3>
@@ -39,7 +39,7 @@ const SectionSpecs = () => {
             </div>
           </div>
         </div>
-        <div className="specs-item col-3">
+        <div className="specs-item col-xl-3 col-md-6 col-12 mx-auto mb-5">
           <div className="specs-item-inner">
             <div className="specs-item-inner-content">
               <h3> LONG-TERM </h3>

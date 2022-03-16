@@ -12,7 +12,7 @@ const SectionTeam = () => {
         </p>
       </div>
       <div className="row cards">
-        <div className="col-3 d-flex align-items-center justify-content-center">
+        <div className="col-xl-3 col-md-6 col-12 mx-auto mb-5 d-flex align-items-center justify-content-center">
           <div className="card-member">
             <div className="card-member-img" />
             <div className="card-member-content">
@@ -21,7 +21,7 @@ const SectionTeam = () => {
             </div>
           </div>
         </div>
-        <div className="col-3 d-flex align-items-center justify-content-center">
+        <div className="col-xl-3 col-md-6 col-12 mx-auto mb-5 d-flex align-items-center justify-content-center">
           <div className="card-member">
             <div className="card-member-img" />
             <div className="card-member-content">
@@ -30,7 +30,7 @@ const SectionTeam = () => {
             </div>
           </div>
         </div>
-        <div className="col-3 d-flex align-items-center justify-content-center">
+        <div className="col-xl-3 col-md-6 col-12 mx-auto mb-5 d-flex align-items-center justify-content-center">
           <div className="card-member">
             <div className="card-member-img" />
             <div className="card-member-content">
@@ -39,7 +39,7 @@ const SectionTeam = () => {
             </div>
           </div>
         </div>
-        <div className="col-3 d-flex align-items-center justify-content-center">
+        <div className="col-xl-3 col-md-6 col-12 mx-auto mb-5 d-flex align-items-center justify-content-center">
           <div className="card-member">
             <div className="card-member-img" />
             <div className="card-member-content">
