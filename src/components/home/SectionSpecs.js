@@ -4,7 +4,7 @@ const SectionSpecs = () => {
   return (
     <section id="specs" className="section-specs">
       <h2 className="section-title"> SPECS </h2>
-      <div className="row specs-details">
+      <div className="row specs-details mx-auto">
         <div className="specs-item col-3">
           <div className="specs-item-inner">
             <div className="specs-item-inner-content">

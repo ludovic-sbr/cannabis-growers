@@ -1,9 +1,9 @@
 .section-specs {
-  padding: 50px 0 50px 0;
   background-color: #03241C;
-  text-align: center;
 
   .specs-details {
+    max-width: 80%;
+
     .specs-item {
       display: flex;
       align-items: center;

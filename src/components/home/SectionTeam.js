@@ -52,9 +52,11 @@ const SectionTeam = () => {
       <div className="row join-us">
         <p> Start a new life </p>
         <h2 className="section-title"> JOIN US ON DISCORD </h2>
-        <button className="login-btn btn btn-primary mx-auto">
-          <span> GO ! </span>
-        </button>
+        <a href="https://discord.gg/MMaMxRjUpj" target="_blank" rel="noreferrer">
+          <button className="login-btn btn btn-primary mx-auto">
+            <span> GO ! </span>
+          </button>
+        </a>
       </div>
     </section>
   )

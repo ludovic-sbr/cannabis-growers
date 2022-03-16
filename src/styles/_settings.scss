@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Inter:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Inter:wght@200;400;700;800&display=swap');
 
 html, body {
   margin: 0;
@@ -9,6 +9,7 @@ html, body {
     color: #064635;
   }
   color: #fff;
+  overflow-x: hidden;
 }
 
 h2 {
@@ -28,6 +29,13 @@ h3 {
   font-weight: 700;
   text-shadow: #000 1px 0 2px;
   text-transform: uppercase;
+}
+
+section {
+  padding: 75px 0 75px 0;
+  position: relative;
+
+  text-align: center;
 }
 
 .login-btn {

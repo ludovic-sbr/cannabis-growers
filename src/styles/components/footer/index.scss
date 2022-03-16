@@ -1,0 +1,75 @@
+.footer {
+  padding: 30px 0 0;
+  background-color: #03241C;
+
+  hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .footer-top {
+    min-height: 150px;
+
+    padding: 15px;
+
+    border-bottom: 1px solid #626262;
+
+    .scgc-logo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      border-right: 1px solid #626262;
+    }
+
+    .scgc-menu {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-left: 80px;
+
+      h4 {
+        font-size: 20px;
+        font-weight: 700;
+      }
+
+      ul {
+        padding: 0;
+        display: block;
+
+        list-style: none;
+
+        .footer-link {
+          color: #BFBFBF;
+          text-decoration: none;
+          font-weight: 200;
+        }
+      }
+    }
+
+    .scgc-medias {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .footer-btn {
+        height: 30px; width: 30px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 8px;
+
+        border-radius: 50%;
+        border: none;
+      }
+    }
+  }
+
+  .footer-copyright {
+    padding-top: 15px;
+
+    text-align: center;
+  }
+}
