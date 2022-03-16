@@ -6,11 +6,11 @@ const SectionAbout = () => {
     <section id="about" className="section-about">
       <div className="container">
         <h2> ABOUT </h2>
-        <div className="row para">
-          <div className="img col-4">
+        <div className="row para mx-auto">
+          <div className="img col-xl-4 d-none d-xl-flex">
             <img src={Monkey} alt="monkey"/>
           </div>
-          <div className="content col-8">
+          <div className="content col-xl-8">
             <h3> SOLANA CANNABIS GROWERS CLUB </h3>
             <p>
               The <b>Solana Cannabis Growers Club</b> is a Collection of <b>4200
@@ -28,8 +28,8 @@ const SectionAbout = () => {
             </p>
           </div>
         </div>
-        <div className="row para para-left">
-          <div className="content col-8">
+        <div className="row para para-left mx-auto">
+          <div className="content col-xl-8">
             <h3> BECOME A CANNABIS INVESTOR </h3>
             <p>
               We want to anyone who always dreamed about having the opportunity
@@ -48,15 +48,15 @@ const SectionAbout = () => {
               Maryjane</b>.
             </p>
           </div>
-          <div className="img col-4 justify-content-end">
+          <div className="img col-xl-4 d-none d-xl-flex justify-content-xl-end">
             <img src={Monkey} alt="monkey"/>
           </div>
         </div>
-        <div className="row para">
-          <div className="img col-4">
+        <div className="row para mx-auto">
+          <div className="img col-xl-4 d-none d-xl-flex">
             <img src={Monkey} alt="monkey"/>
           </div>
-          <div className="content col-8">
+          <div className="content col-xl-8">
             <h3> CANNABIS MAKES OPPORTUNITIES </h3>
             <p>
               The <b>Cannabis</b> is a wonderful plants with many different uses
@@ -73,8 +73,8 @@ const SectionAbout = () => {
             </p>
           </div>
         </div>
-        <div className="row para para-left">
-          <div className="content col-8">
+        <div className="row para para-left mx-auto">
+          <div className="content col-xl-8">
             <h3> BECOME A PLANTS OWNER </h3>
             <p>
               SCGC Holders will have the possibility to be part of our
@@ -97,7 +97,7 @@ const SectionAbout = () => {
               in the Company</b>.
             </p>
           </div>
-          <div className="img col-4 justify-content-end">
+          <div className="img d-none d-xl-flex col-xl-4 justify-content-xl-end">
             <img src={Monkey} alt="monkey"/>
           </div>
         </div>

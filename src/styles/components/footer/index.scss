@@ -21,6 +21,11 @@
       justify-content: center;
 
       border-right: 1px solid #626262;
+
+      @media screen and (max-width: 768px) {
+        border: none;
+        padding-bottom: 20px;
+      }
     }
 
     .scgc-menu {
