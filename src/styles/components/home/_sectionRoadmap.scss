@@ -5,9 +5,12 @@
     display: flex;
     flex-direction: column;
 
+    @media screen and (max-width: 576px) {
+      width: 100%;
+    }
+
     .caroussel-item {
       height: 125px;
-
       display: flex;
       justify-content: space-between;
       margin-bottom: 20px;
@@ -16,16 +19,28 @@
       background-color: #03241C;
       transition: all .5s ease-in-out;
 
+      @media screen and (max-width: 992px) {
+        height: 100px;
+      }
+
       img {
-        height: 125px;
+        height: 100%;
       }
 
       &-content {
+        width: 100%;
+
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         padding: 15px;
         position: relative;
+
+        @media screen and (max-width: 992px) {
+          justify-content: center;
+          align-items: center;
+          padding: 0;
+        }
 
         .item-number {
           height: 22px;
@@ -35,11 +50,28 @@
         }
 
         h3 {
+          width: 100%;
           padding-bottom: 5px;
 
           border-bottom: 1px solid #fff;
           text-align: left;
           font-size: 22px;
+
+          @media screen and (max-width: 992px) {
+            padding-bottom: 0;
+            border: none;
+            text-align: center;
+          }
+        }
+
+        p {
+          @media screen and (max-width: 1400px) {
+            font-size: 14px;
+          }
+
+          @media screen and (max-width: 992px) {
+            display: none;
+          }
         }
       }
 

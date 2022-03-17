@@ -116,7 +116,7 @@ const SectionRoadmap = () => {
           <img src={Monkey} alt="item-image" />
           <div className="caroussel-item-content">
             <img className="item-number" src={Nine} alt="nine" />
-            <h3> CREATION OF THE CANNABIS GROWERS COMPANY </h3>
+            <h3 className=""> CANNABIS GROWERS COMPANY </h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
