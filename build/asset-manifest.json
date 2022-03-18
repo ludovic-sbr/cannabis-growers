@@ -1,10 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.4eb64245.css",
-    "main.js": "/static/js/main.b88ca67b.js",
+    "main.css": "/static/css/main.c3638282.css",
+    "main.js": "/static/js/main.14fbede8.js",
     "static/js/787.cfa7f82e.chunk.js": "/static/js/787.cfa7f82e.chunk.js",
-    "static/media/scgc.jpg": "/static/media/scgc.2c09914f928e3a880cfb.jpg",
-    "static/media/investor.jpg": "/static/media/investor.1991ddb1417fddcba181.jpg",
+    "static/media/owner.jpg": "/static/media/owner.2db3af0d5b75713369b0.jpg",
+    "static/media/investor.jpg": "/static/media/investor.cd3dc74519ef7b8c7e61.jpg",
+    "static/media/opportunities.jpg": "/static/media/opportunities.e30c9732fd96863d9b46.jpg",
+    "static/media/sicario.jpg": "/static/media/sicario.5c52cf65495e4e6b7814.jpg",
+    "static/media/christine.jpg": "/static/media/christine.59d17bcc6ce7f5e7d9ed.jpg",
+    "static/media/keith.jpg": "/static/media/keith.529c1a474bddb3fefe24.jpg",
+    "static/media/scgc.jpg": "/static/media/scgc.7d9803fde276220b7193.jpg",
+    "static/media/johnson.jpg": "/static/media/johnson.69a1f9d1f28b841276a4.jpg",
     "static/media/monkey.jpg": "/static/media/monkey.f80b14c1d2da227a88e1.jpg",
     "static/media/4.webp": "/static/media/4.70d507e04a4d3f6fd2ef.webp",
     "static/media/5.webp": "/static/media/5.7a2db853295ef56baf42.webp",
@@ -16,12 +22,12 @@
     "static/media/9.webp": "/static/media/9.2f0b3f6ecb7cce556df2.webp",
     "static/media/7.webp": "/static/media/7.e0afca7752f6c2fb802e.webp",
     "index.html": "/index.html",
-    "main.4eb64245.css.map": "/static/css/main.4eb64245.css.map",
-    "main.b88ca67b.js.map": "/static/js/main.b88ca67b.js.map",
+    "main.c3638282.css.map": "/static/css/main.c3638282.css.map",
+    "main.14fbede8.js.map": "/static/js/main.14fbede8.js.map",
     "787.cfa7f82e.chunk.js.map": "/static/js/787.cfa7f82e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4eb64245.css",
-    "static/js/main.b88ca67b.js"
+    "static/css/main.c3638282.css",
+    "static/js/main.14fbede8.js"
   ]
 }

@@ -1,7 +1,9 @@
 import React from 'react'
-import Monkey from '../../assets/images/monkey.jpg'
+
 import SCGC from '../../assets/images/about/scgc.jpg'
 import investor from "../../assets/images/about/investor.jpg"
+import opportunities from "../../assets/images/about/opportunities.jpg"
+import owner from "../../assets/images/about/owner.jpg"
 
 const SectionAbout = () => {
   return (
@@ -10,7 +12,7 @@ const SectionAbout = () => {
         <h2> ABOUT </h2>
         <div className="row para mx-auto">
           <div className="img col-xl-4 d-none d-xl-flex">
-            <img src={SCGC} alt="monkey"/>
+            <img src={SCGC} alt="SCGC"/>
           </div>
           <div className="content col-xl-8">
             <h3> SOLANA CANNABIS GROWERS CLUB </h3>
@@ -51,12 +53,12 @@ const SectionAbout = () => {
             </p>
           </div>
           <div className="img col-xl-4 d-none d-xl-flex justify-content-xl-end">
-            <img src={investor} alt="monkey"/>
+            <img src={investor} alt="investor"/>
           </div>
         </div>
         <div className="row para mx-auto">
           <div className="img col-xl-4 d-none d-xl-flex">
-            <img src={SCGC} alt="monkey"/>
+            <img src={opportunities} alt="opportunities"/>
           </div>
           <div className="content col-xl-8">
             <h3> CANNABIS MAKES OPPORTUNITIES </h3>
@@ -100,7 +102,7 @@ const SectionAbout = () => {
             </p>
           </div>
           <div className="img d-none d-xl-flex col-xl-4 justify-content-xl-end">
-            <img src={SCGC} alt="monkey"/>
+            <img src={owner} alt="owner"/>
           </div>
         </div>
       </div>

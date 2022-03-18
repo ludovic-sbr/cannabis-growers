@@ -3,6 +3,8 @@ import Logo from '../header/Logo'
 import { FaDiscord, FaTwitter } from 'react-icons/fa'
 import { HashLink } from 'react-router-hash-link'
 
+import meLogo from "../../assets/magiceden_logo.png"
+
 const Index = () => {
   return (
     <footer className="footer container-fluid">
@@ -21,6 +23,11 @@ const Index = () => {
             </ul>
           </div>
           <div className="scgc-medias col-md-2">
+            <a href="https://magiceden.io/" target="_blank" rel="noreferrer">
+              <button className="footer-btn">
+                <img src={meLogo} alt="meLogo" style={{height: '16px'}} />
+              </button>
+            </a>
             <a href="https://discord.gg/MMaMxRjUpj" target="_blank" rel="noreferrer">
               <button className="footer-btn">
                 <FaDiscord size={20} />
