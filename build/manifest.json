@@ -1,7 +1,7 @@
 {
   "short_name": "SCGC",
   "name": "Cannabis Growers Club",
-  "description": "Invest in an NFT Collection and become a true investor of a Cannabis Company.",
+  "description": "...",
   "icons": [
     {
       "src": "favicon.ico",
@@ -9,7 +9,7 @@
       "type": "image/x-icon"
     }
   ],
-  "start_url": "https://cannabisgrowersclub.io/",
+  "start_url": "...",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"

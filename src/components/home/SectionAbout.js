@@ -80,7 +80,7 @@ const SectionAbout = () => {
             <h3> BECOME A PLANTS OWNER </h3>
             <p>
               SCGC Holders will have the possibility to be part of our
-              <b>Investment Plan</b>. In additions to <b>receives
+              <b> Investment Plan</b>. In additions to <b>receives
               benefits</b> from the Basic
               Staking System and the benefits generate by the Company Holders
               will have the possibility to become <b>Plants Owners</b>.
