@@ -12,7 +12,7 @@ const SectionAbout = () => {
         <h2> ABOUT </h2>
         <div className="row para mx-auto">
           <div className="img col-xl-4 d-none d-xl-flex">
-            <img src={SCGC} alt="SCGC"/>
+            <img src={SCGC} alt="SCGC" />
           </div>
           <div className="content col-xl-8">
             <h3> SOLANA CANNABIS GROWERS CLUB </h3>
@@ -37,11 +37,11 @@ const SectionAbout = () => {
             <h3> BECOME A CANNABIS INVESTOR </h3>
             <p>
               We want to anyone who always dreamed about having the opportunity
-              <b> to be an investor</b> or being an actors of the Cannabis
-              industry with
+              <b> to be an investor</b> or an actor of the Cannabis
+              industry be able to invest with
               <b> low Invesment</b> and <b>high rewards</b>.
               <br/><br/>
-              Our goal is to create a <b>Company who will growth Cannabis
+              Our goal is to create a <b>Company who will grow Cannabis
               Plants </b>
               and export the harvest worldwide to <b>generate benefits</b> for
               our <b>NFTs
@@ -53,7 +53,7 @@ const SectionAbout = () => {
             </p>
           </div>
           <div className="img col-xl-4 d-none d-xl-flex justify-content-xl-end">
-            <img src={investor} alt="investor"/>
+            <img src={investor} alt="investor" />
           </div>
         </div>
         <div className="row para mx-auto">
@@ -65,14 +65,14 @@ const SectionAbout = () => {
             <p>
               The <b>Cannabis</b> is a wonderful plants with many different uses
               but
-              unfortunatly this Market is most of the time handeled by Big
-              Company.
+              unfortunatly this Market is mainly handled by Big
+              Groups.
               <br/><br/>
               We want to give the opportunity to OG Growers to be able to <b>be
               an
               actor of this Market</b> and also live this adventure with us. We
               will
-              choose OG's to come with us create the Company is Uruguay if they
+              choose OG's to come with us create the Company in Uruguay if they
               always dreamed about a life change.
             </p>
           </div>
@@ -82,17 +82,17 @@ const SectionAbout = () => {
             <h3> BECOME A PLANTS OWNER </h3>
             <p>
               SCGC Holders will have the possibility to be part of our
-              <b> Investment Plan</b>. In additions to <b>receives
-              benefits</b> from the Basic
-              Staking System and the benefits generate by the Company Holders
+              <b> Investment Plan</b>. In additions to <b>the
+              benefits</b> they will receive from the Basic
+              Staking System and the benefits generate by the Company, Holders
               will have the possibility to become <b>Plants Owners</b>.
               <br/><br/>
               <b>They will be able to see they plants growing in livestream
                 24H/24h </b>
               until the harvest and after that they will be able to sell there
               harvest to <b>generate benefits</b> or getting there harvest
-              shiped to
-              them (depend of the country laws).
+              shipped to
+              them (depend on the country laws).
               <br/><br/>
               <b>The Community will make all decision</b> in the Company and we
               will
@@ -102,7 +102,7 @@ const SectionAbout = () => {
             </p>
           </div>
           <div className="img d-none d-xl-flex col-xl-4 justify-content-xl-end">
-            <img src={owner} alt="owner"/>
+            <img src={owner} alt="owner" />
           </div>
         </div>
       </div>

@@ -11,7 +11,7 @@ const SectionSpecs = () => {
               <h3> INNOVATION </h3>
               <p>
                 We create the bridge between web3 and Physical assets to
-                generate different way of income for our Holders.
+                generate different ways of income for our Holders.
               </p>
             </div>
           </div>
@@ -21,7 +21,7 @@ const SectionSpecs = () => {
             <div className="specs-item-inner-content">
               <h3> UNIQUE </h3>
               <p>
-                This is the only project where mint funds will be use to create
+                This is the only project where mint funds will be used to create
                 a physical cannabis company.
               </p>
             </div>
@@ -32,8 +32,8 @@ const SectionSpecs = () => {
             <div className="specs-item-inner-content">
               <h3> COMMUNITY </h3>
               <p>
-                SCGC will regroups OG Cannabis users from worldwide and will be
-                able to use the power of the community to keep expending the
+                SCGC will regroups OG Cannabis users from the entire world and will be
+                able to use the strength of the community to keep expending the
                 company.
               </p>
             </div>

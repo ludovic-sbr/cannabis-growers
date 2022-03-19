@@ -1,8 +1,8 @@
 import React from 'react'
-import Johnson from "../../assets/images/team/johnson.jpg"
-import Sicario from "../../assets/images/team/sicario.jpg"
-import Keith from "../../assets/images/team/keith.jpg"
-import Christine from "../../assets/images/team/christine.jpg"
+import Johnson from '../../assets/images/team/johnson.jpg'
+import Sicario from '../../assets/images/team/sicario.jpg'
+import Keith from '../../assets/images/team/keith.jpg'
+import Christine from '../../assets/images/team/christine.jpg'
 
 const SectionTeam = () => {
   return (
@@ -10,16 +10,18 @@ const SectionTeam = () => {
       <h2 className="section-title"> CANNABIS GROWERS TEAM </h2>
       <div className="row team-text mx-auto">
         <p>
-          We are a team of gamers who love Cannabis & NFTs and our goal is to
-          create the bridge between web3 assets and real life assets for
-          Cannabis lovers.
+          Our goal is to share all the Benefits of the Cannabis with a
+          passionate Community.
+          We want to create passive Life Income for our Holders with a bridge
+          between web3 assets and real life assets.
         </p>
       </div>
       <div className="row cards">
-        <div className="col-xl-3 col-md-6 col-12 mx-auto mb-5 d-flex align-items-center justify-content-center">
+        <div
+          className="col-xl-3 col-md-6 col-12 mx-auto mb-5 d-flex align-items-center justify-content-center">
           <div className="card-member">
             <div className="card-member-img">
-              <img src={Johnson} />
+              <img src={Johnson}/>
             </div>
             <div className="card-member-content">
               <span className="member-name"> JOHNSON </span>
@@ -31,7 +33,7 @@ const SectionTeam = () => {
           className="col-xl-3 col-md-6 col-12 mx-auto mb-5 d-flex align-items-center justify-content-center">
           <div className="card-member">
             <div className="card-member-img">
-              <img src={Sicario} />
+              <img src={Sicario}/>
             </div>
             <div className="card-member-content">
               <span className="member-name"> SICARIO </span>
@@ -43,7 +45,7 @@ const SectionTeam = () => {
           className="col-xl-3 col-md-6 col-12 mx-auto mb-5 d-flex align-items-center justify-content-center">
           <div className="card-member">
             <div className="card-member-img">
-              <img src={Keith} />
+              <img src={Keith}/>
             </div>
             <div className="card-member-content">
               <span className="member-name"> KEITH </span>
@@ -55,7 +57,7 @@ const SectionTeam = () => {
           className="col-xl-3 col-md-6 col-12 mx-auto mb-5 d-flex align-items-center justify-content-center">
           <div className="card-member">
             <div className="card-member-img">
-              <img src={Christine} />
+              <img src={Christine}/>
             </div>
             <div className="card-member-content">
               <span className="member-name"> CHRISTINE </span>
