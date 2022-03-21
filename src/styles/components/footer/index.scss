@@ -68,6 +68,10 @@
 
         border-radius: 50%;
         border: none;
+
+        &:hover {
+          box-shadow: rgba(255, 255, 255, 0.24) 0px 3px 8px;
+        }
       }
     }
   }
