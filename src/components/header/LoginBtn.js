@@ -1,6 +1,6 @@
 import React from 'react'
-import meLogo from '../../assets/magiceden_logo.png'
-import { FaTwitter } from 'react-icons/fa'
+import meLogo from '../../assets/images/magiceden_logo.png'
+import twitterLogo from "../../assets/images/twitter_logo.png"
 
 const LoginBtn = () => {
   return (
@@ -12,7 +12,7 @@ const LoginBtn = () => {
       </a>
       <a href="https://twitter.com/SolCGrowersClub" target="_blank" rel="noreferrer">
         <button className="me-btn">
-          <FaTwitter size={18} />
+          <img src={twitterLogo} alt="meLogo" style={{height: '16px'}} />
         </button>
       </a>
       <a href="https://discord.gg/MMaMxRjUpj" target="_blank" rel="noreferrer">

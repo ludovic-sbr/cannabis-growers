@@ -1,9 +1,10 @@
 import React from 'react'
 import Logo from '../header/Logo'
-import { FaDiscord, FaTwitter } from 'react-icons/fa'
 import { HashLink } from 'react-router-hash-link'
 
-import meLogo from "../../assets/magiceden_logo.png"
+import meLogo from "../../assets/images/magiceden_logo.png"
+import twitterLogo from '../../assets/images/twitter_logo.png'
+import discordLogo from '../../assets/images/discord_logo.png'
 
 const Index = () => {
   return (
@@ -30,12 +31,12 @@ const Index = () => {
             </a>
             <a href="https://discord.gg/MMaMxRjUpj" target="_blank" rel="noreferrer">
               <button className="footer-btn">
-                <FaDiscord size={20} />
+                <img src={discordLogo} alt="meLogo" style={{height: '20px'}} />
               </button>
             </a>
             <a href="https://twitter.com/SolCGrowersClub" target="_blank" rel="noreferrer">
               <button className="footer-btn">
-                <FaTwitter size={20} />
+                <img src={twitterLogo} alt="meLogo" style={{height: '16px'}} />
               </button>
             </a>
           </div>

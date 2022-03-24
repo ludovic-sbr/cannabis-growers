@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 
 import Roadmap1 from '../../assets/images/roadmap/roadmap1.png'
 import Roadmap2 from '../../assets/images/roadmap/roadmap2.png'
@@ -8,7 +8,18 @@ import Roadmap5 from '../../assets/images/roadmap/roadmap5.png'
 import Roadmap6 from '../../assets/images/roadmap/roadmap6.png'
 import Roadmap7 from '../../assets/images/roadmap/roadmap7.png'
 
+import Whitepaper from "../../assets/files/Whitepaper_CannabisGrowersClub (1).pdf"
+
 const SectionRoadmap = () => {
+  const pdfRef = useRef()
+  const [pdfStatus, setPdfStatus] = useState(false)
+
+  useEffect(() => {
+    pdfRef.current.onclick = () => {
+      setPdfStatus(false)
+    }
+  })
+
   return (
     <section id="roadmap" className="section-roadmap container">
       <h2 className="section-title"> ROADMAP </h2>
@@ -60,7 +71,7 @@ const SectionRoadmap = () => {
           <img src={Roadmap5} alt="item-img-5"/>
           <div className="caroussel-item-content">
             <span> AUGUST </span>
-            <h3> GETTING CLOSER OF THE HARVEST </h3>
+            <h3> GETTING CLOSER TO THE HARVEST </h3>
             <p>
               The Flowers are coming we are getting closer to the Harvest !
             </p>
@@ -90,6 +101,13 @@ const SectionRoadmap = () => {
             </p>
           </div>
         </div>
+      </div>
+      <button className="login-btn btn btn-primary mx-auto mt-4" onClick={() => setPdfStatus(!pdfStatus)}>
+        <span> WHITEPAPER </span>
+      </button>
+      <div className="document" ref={pdfRef} style={pdfStatus ? {display: "flex"} : {display: "none"}}>
+        <iframe src={Whitepaper} title="pdf" />
+        <p> Cliquez à l'exterieur du document pour quitter. </p>
       </div>
     </section>
   )

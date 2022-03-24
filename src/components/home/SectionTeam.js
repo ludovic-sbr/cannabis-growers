@@ -2,7 +2,7 @@ import React from 'react'
 import Johnson from '../../assets/images/team/johnson.jpg'
 import Sicario from '../../assets/images/team/sicario.jpg'
 import Keith from '../../assets/images/team/keith.jpg'
-import Christine from '../../assets/images/team/christine.jpg'
+import maybe from '../../assets/images/team/maybe.jpg'
 
 const SectionTeam = () => {
   return (
@@ -36,7 +36,7 @@ const SectionTeam = () => {
               <img src={Keith} alt="keith" />
             </div>
             <div className="card-member-content">
-              <span className="member-name"> KEITH </span>
+              <span className="member-name"> RICO01 </span>
               <span className="member-role"> Co-Founder of SCGC </span>
             </div>
           </div>
@@ -57,11 +57,11 @@ const SectionTeam = () => {
           className="col-xl-3 col-md-6 col-12 mx-auto mb-5 d-flex align-items-center justify-content-center">
           <div className="card-member">
             <div className="card-member-img">
-              <img src={Christine} alt="christine" />
+              <img src={maybe} alt="christine" />
             </div>
             <div className="card-member-content">
-              <span className="member-name"> CHRISTINE </span>
-              <span className="member-role"> Community manager </span>
+              <span className="member-name"> MAYBE YOU ? </span>
+              <span className="member-role"> We recruit </span>
             </div>
           </div>
         </div>
