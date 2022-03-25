@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.79a1ad52.css",
-    "main.js": "/static/js/main.e60dec3c.js",
+    "main.css": "/static/css/main.e97c5df5.css",
+    "main.js": "/static/js/main.26958957.js",
     "static/js/787.7e418dba.chunk.js": "/static/js/787.7e418dba.chunk.js",
     "static/media/owner.jpg": "/static/media/owner.2db3af0d5b75713369b0.jpg",
     "static/media/investor.jpg": "/static/media/investor.cd3dc74519ef7b8c7e61.jpg",
@@ -11,19 +11,19 @@
     "static/media/scgc.jpg": "/static/media/scgc.7d9803fde276220b7193.jpg",
     "static/media/johnson.jpg": "/static/media/johnson.69a1f9d1f28b841276a4.jpg",
     "static/media/maybe.jpg": "/static/media/maybe.cc523bb531e24147578c.jpg",
-    "static/media/Whitepaper_CannabisGrowersClub (1).pdf": "/static/media/Whitepaper_CannabisGrowersClub (1).1b181e9bdb5b31fa2f85.pdf",
+    "static/media/whitepaper_scgc.pdf": "/static/media/whitepaper_scgc.1b181e9bdb5b31fa2f85.pdf",
     "static/media/roadmap7.png": "/static/media/roadmap7.0127190dc588a2f141c8.png",
     "static/media/roadmap6.png": "/static/media/roadmap6.8525cf52cf1d3902062e.png",
     "static/media/roadmap5.png": "/static/media/roadmap5.19892aab7fe230d46dae.png",
     "static/media/roadmap4.png": "/static/media/roadmap4.a5a384c0aee6f9c5c15c.png",
     "static/media/roadmap3.png": "/static/media/roadmap3.814e9046151864eda692.png",
     "index.html": "/index.html",
-    "main.79a1ad52.css.map": "/static/css/main.79a1ad52.css.map",
-    "main.e60dec3c.js.map": "/static/js/main.e60dec3c.js.map",
+    "main.e97c5df5.css.map": "/static/css/main.e97c5df5.css.map",
+    "main.26958957.js.map": "/static/js/main.26958957.js.map",
     "787.7e418dba.chunk.js.map": "/static/js/787.7e418dba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.79a1ad52.css",
-    "static/js/main.e60dec3c.js"
+    "static/css/main.e97c5df5.css",
+    "static/js/main.26958957.js"
   ]
 }

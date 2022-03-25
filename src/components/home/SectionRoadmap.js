@@ -8,7 +8,7 @@ import Roadmap5 from '../../assets/images/roadmap/roadmap5.png'
 import Roadmap6 from '../../assets/images/roadmap/roadmap6.png'
 import Roadmap7 from '../../assets/images/roadmap/roadmap7.png'
 
-import Whitepaper from "../../assets/files/Whitepaper_CannabisGrowersClub (1).pdf"
+import Whitepaper from "../../assets/files/whitepaper_scgc.pdf"
 
 const SectionRoadmap = () => {
   const pdfRef = useRef()
@@ -107,6 +107,11 @@ const SectionRoadmap = () => {
       </button>
       <div className="document" ref={pdfRef} style={pdfStatus ? {display: "flex"} : {display: "none"}}>
         <iframe src={Whitepaper} title="pdf" />
+        <a href={Whitepaper} download="Whitepaper_CannabisGrowersClub">
+          <button className="login-btn btn btn-primary mx-auto mt-2">
+            <span> TELECHARGER </span>
+          </button>
+        </a>
         <p> Cliquez à l'exterieur du document pour quitter. </p>
       </div>
     </section>
